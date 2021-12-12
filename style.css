@@ -31,7 +31,9 @@
 
 .slot > .value{
     z-index: 3;
-    animation: slotspin infinite 0.5s;
+    animation-name: slotspin;
+    animation-iteration-count: infinite;
+    animation-duration: 0.1s;
 }
 
 @keyframes slotspin {
