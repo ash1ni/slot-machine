@@ -16,7 +16,7 @@ function getRandomValue(){
 
 
 
-let animationId
+let animationId;
 function updateAnimation(newSpeed){
     if (animationId) clearInterval(animationId)
 
